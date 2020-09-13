@@ -1,0 +1,46 @@
+
+
+------------------------------------------------------------------------------------------------------------------------
+FILE SCANNING RESULTS
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: dwagent.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: Git-2.24.1.2-64-bit.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: iobituninstaller.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: nsis-3.05-setup.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: pycharm-community-2019.3.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.7.0-amd64(1).exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.7.0-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.0-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.0.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.1rc1-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: VSCodeUserSetup-x64-1.41.0.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: VSCodeUserSetup-x64-1.41.1.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: vs_community__1809968542.1576591472.exe
+
+
+------------------------------------------------------------------------------------------------------------------------

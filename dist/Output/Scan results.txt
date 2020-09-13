@@ -1,0 +1,110 @@
+------------------------------------------------------------------------------------------------------------------------
+REGISTRY RESULTS
+------------------------------------------------------------------------------------------------------------------------
+Raw registry results
+==========================  ===========================================================================  ============
+Name                        Data                                                                         Field Type
+==========================  ===========================================================================  ============
+HKEY_LOCAL_MACHINE          Software\Microsoft\Windows\CurrentVersion\Run                                Empty
+SecurityHealth              %windir%\system32\SecurityHealthSystray.exe                                  2
+VMware VM3DService Process  "C:\Windows\system32\vm3dservice.exe" -u                                     1
+VMware User Process         "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr                 1
+Internet Explorer           "C:\Program Files (x86)\Internet Explorer\iexplore.exe"                      1
+DWAgentMon                  "C:\Program Files\DWAgent\native\dwaglnc.exe" systray                        1
+HKEY_LOCAL_MACHINE          Software\Microsoft\Windows\CurrentVersion\RunOnce                            Empty
+Empty                       Empty                                                                        Empty
+HKEY_CURRENT_USER           Software\Microsoft\Windows\CurrentVersion\Run                                Empty
+OneDrive                    "C:\Users\Jasper\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background  1
+Firefox                     "C:\Program Files\Mozilla Firefox\firefox.exe"                               1
+HKEY_CURRENT_USER           Software\Microsoft\Windows\CurrentVersion\RunOnce                            Empty
+Empty                       Empty                                                                        Empty
+==========================  ===========================================================================  ============
+
+Filtered registry results
+==========================  ===========================================================================  ============
+Name                        Data                                                                           Field Type
+==========================  ===========================================================================  ============
+OneDrive                    "C:\Users\Jasper\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background             1
+VMware VM3DService Process  "C:\Windows\system32\vm3dservice.exe" -u                                                1
+VMware User Process         "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr                            1
+Internet Explorer           "C:\Program Files (x86)\Internet Explorer\iexplore.exe"                                 1
+DWAgentMon                  "C:\Program Files\DWAgent\native\dwaglnc.exe" systray                                   1
+Firefox                     "C:\Program Files\Mozilla Firefox\firefox.exe"                                          1
+==========================  ===========================================================================  ============
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+FILE SCANNING RESULTS
+------------------------------------------------------------------------------------------------------------------------
+Path: C:\\Users\\Jasper\\Downloads
+File name: dwagent.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: Git-2.24.1.2-64-bit.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: iobituninstaller.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: JavaSetup8u241.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: nsis-3.05-setup.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: pycharm-community-2019.3.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.7.0-amd64(1).exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.7.0-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.0-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.0.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.1rc1-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: VSCodeUserSetup-x64-1.41.0.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: VSCodeUserSetup-x64-1.41.1.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: vs_community__1809968542.1576591472.exe
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+PROCESS SCAN RESULTS
+------------------------------------------------------------------------------------------------------------------------
+*** found process by path ***
+[psutil.Process(pid=7016, name='pycharm64.exe', started='08:56:19')]
+
+*** Check if a process is running or not ***
+Yes, a Skype process was running
+
+*** Find PIDs of a running process by Name ***
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 6620, 'name': 'SkypeBridge.exe'}
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7092, 'name': 'SkypeBackgroundHost.exe'}
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7164, 'name': 'SkypeApp.exe'}
+
+*** Find PIDs of a running process by Name ***
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+EVENT LOG SCANNER RESULTS
+------------------------------------------------------------------------------------------------------------------------
+{"ID": "0", "EventType": "13", "EventID": "14", "Sid": "233434", "SourceName": "lala", "EventCategory": "34", "StringInsterts": "evil.exe", "Data": "lala", "ComputerName": "mijnComputer", "logType": "EVENTLOG_AUDIT_SUCCESS", "Found": "False"}
+
+------------------------------------------------------------------------------------------------------------------------

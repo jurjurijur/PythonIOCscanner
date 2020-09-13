@@ -1,0 +1,40 @@
+---BEGIN_FILE_SCAN---
+#name or size ;; path
+name ;; path
+10000;; path
+
+---END---
+---BEGIN_EVENTLOG_SCAN---
+#logType ;; eventType ;; eventID ;; sid ;; sourceName ;; stringInserts ;; eventCategory ;; data ;; computerName
+#er zijn 5 logTypes: audit_failure, audit_succes, information_type, warning_type, error_type
+#voor het zoeken in alle logtype geef: ALL als paramater mee
+
+all;; None ;; NONE ;; ;; ;; stringInserts ;; 10 ;; data ;; computerName ;;
+all;; 10 ;; 10 ;; sid ;; sourceName ;; stringInserts ;; 10 ;; data ;; computerName ;;
+ALL;; 10 ;; 10 ;; sid ;; sourceName ;; stringInserts ;; 10 ;; data ;; computerName ;;
+ALL ;; 10 ;; sid ;; sourceName ;; stringInserts ;; 10 ;; data ;; computerName ;;
+
+
+---END---
+---BEGIN_REGISTRY_SCAN---
+#hkey ;; path
+hkey ;; path
+hkey ;; path
+hkey ;; path
+
+
+---END---
+---BEGIN_PROCESS_SCAN---
+#processnaam ;; SourcePath
+processnaam ;; SourcePath
+processnaam ;; SourcePath
+
+Skype ;; C:\Users\Public
+
+---END---
+---BEGIN_CONFIG---
+#fileDestinationPath
+
+fileDestinationPath
+fileDestinationPath
+---END---

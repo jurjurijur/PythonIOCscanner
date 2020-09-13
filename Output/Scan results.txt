@@ -1,0 +1,169 @@
+------------------------------------------------------------------------------------------------------------------------
+REGISTRY RESULTS
+------------------------------------------------------------------------------------------------------------------------
+Raw registry results
+==================  =============================================================================  ============
+Name                Data                                                                           Field Type
+==================  =============================================================================  ============
+HKEY_LOCAL_MACHINE  Software\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService  Empty
+DisplayName         Mozilla Maintenance Service                                                    1
+UninstallString     "C:\Program Files (x86)\Mozilla Maintenance Service\uninstall.exe"             1
+DisplayIcon         C:\Program Files (x86)\Mozilla Maintenance Service\Uninstall.exe,0             1
+DisplayVersion      71.0                                                                           1
+Publisher           Mozilla                                                                        1
+Comments            Mozilla Maintenance Service                                                    1
+NoModify            1                                                                              4
+EstimatedSize       329                                                                            4
+==================  =============================================================================  ============
+
+Filtered registry results
+========  ===========================  ============
+Name      Data                           Field Type
+========  ===========================  ============
+Comments  Mozilla Maintenance Service             1
+========  ===========================  ============
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+FILE SCANNING RESULTS
+------------------------------------------------------------------------------------------------------------------------
+Path: C:\\Users\\Jasper\\Downloads
+File name: dwagent.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: Git-2.24.1.2-64-bit.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: iobituninstaller.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: JavaSetup8u241.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: nsis-3.05-setup.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: pycharm-community-2019.3.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.7.0-amd64(1).exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.7.0-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.0-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.0.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: python-3.8.1rc1-amd64.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: VSCodeUserSetup-x64-1.41.0.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: VSCodeUserSetup-x64-1.41.1.exe
+
+Path: C:\\Users\\Jasper\\Downloads
+File name: vs_community__1809968542.1576591472.exe
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+PROCESS SCAN RESULTS
+------------------------------------------------------------------------------------------------------------------------
+*** found process by path ***
+[psutil.Process(pid=7016, name='pycharm64.exe', started='08:56:19')]
+
+*** Check if a process is running or not ***
+Yes, a Skype process was running
+
+*** Find PIDs of a running process by Name ***
+{'name': 'SkypeBridge.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 6620}
+{'name': 'SkypeBackgroundHost.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7092}
+{'name': 'SkypeApp.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7164}
+
+*** Find PIDs of a running process by Name ***
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROCESS SCAN RESULTS
+------------------------------------------------------------------------------------------------------------------------
+*** found process by path ***
+[psutil.Process(pid=7016, name='pycharm64.exe', started='08:56:19')]
+
+*** Check if a process is running or not ***
+Yes, a Skype process was running
+
+*** Find PIDs of a running process by Name ***
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 6620, 'name': 'SkypeBridge.exe'}
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7092, 'name': 'SkypeBackgroundHost.exe'}
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7164, 'name': 'SkypeApp.exe'}
+
+*** Find PIDs of a running process by Name ***
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROCESS SCAN RESULTS
+------------------------------------------------------------------------------------------------------------------------
+*** found process by path ***
+[psutil.Process(pid=7016, name='pycharm64.exe', started='08:56:19')]
+
+*** Check if a process is running or not ***
+Yes, a Skype process was running
+
+*** Find PIDs of a running process by Name ***
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'name': 'SkypeBridge.exe', 'pid': 6620}
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'name': 'SkypeBackgroundHost.exe', 'pid': 7092}
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'name': 'SkypeApp.exe', 'pid': 7164}
+
+*** Find PIDs of a running process by Name ***
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROCESS SCAN RESULTS
+------------------------------------------------------------------------------------------------------------------------
+*** found process by path ***
+[psutil.Process(pid=7016, name='pycharm64.exe', started='08:56:19')]
+
+*** Check if a process is running or not ***
+Yes, a Skype process was running
+
+*** Find PIDs of a running process by Name ***
+{'pid': 6620, 'name': 'SkypeBridge.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper'}
+{'pid': 7092, 'name': 'SkypeBackgroundHost.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper'}
+{'pid': 7164, 'name': 'SkypeApp.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper'}
+
+*** Find PIDs of a running process by Name ***
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROCESS SCAN RESULTS
+------------------------------------------------------------------------------------------------------------------------
+*** found process by path ***
+[psutil.Process(pid=7016, name='pycharm64.exe', started='08:56:19')]
+
+*** Check if a process is running or not ***
+Yes, a Skype process was running
+
+*** Find PIDs of a running process by Name ***
+{'name': 'SkypeBridge.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 6620}
+{'name': 'SkypeBackgroundHost.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7092}
+{'name': 'SkypeApp.exe', 'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7164}
+
+*** Find PIDs of a running process by Name ***
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+EVENT LOG SCANNER RESULTS
+------------------------------------------------------------------------------------------------------------------------
+{"ID": "0", "EventType": "13", "EventID": "14", "Sid": "233434", "SourceName": "lala", "EventCategory": "34", "StringInsterts": "evil.exe", "Data": "lala", "ComputerName": "mijnComputer", "logType": "EVENTLOG_AUDIT_SUCCESS", "Found": "False"}
+{"ID": "0", "EventType": "13", "EventID": "14", "Sid": "233434", "SourceName": "lala", "EventCategory": "34", "StringInsterts": "evil.exe", "Data": "lala", "ComputerName": "mijnComputer", "logType": "EVENTLOG_AUDIT_SUCCESS", "Found": "False"}
+{"ID": "0", "EventType": "13", "EventID": "14", "Sid": "233434", "SourceName": "lala", "EventCategory": "34", "StringInsterts": "evil.exe", "Data": "lala", "ComputerName": "mijnComputer", "logType": "EVENTLOG_AUDIT_SUCCESS", "Found": "False"}
+{"ID": "0", "EventType": "13", "EventID": "14", "Sid": "233434", "SourceName": "lala", "EventCategory": "34", "StringInsterts": "evil.exe", "Data": "lala", "ComputerName": "mijnComputer", "logType": "EVENTLOG_AUDIT_SUCCESS", "Found": "False"}
+{"ID": "0", "EventType": "13", "EventID": "14", "Sid": "233434", "SourceName": "lala", "EventCategory": "34", "StringInsterts": "evil.exe", "Data": "lala", "ComputerName": "mijnComputer", "logType": "EVENTLOG_AUDIT_SUCCESS", "Found": "False"}
+
+------------------------------------------------------------------------------------------------------------------------

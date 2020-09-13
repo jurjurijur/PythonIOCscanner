@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------------------------------------------------
+REGISTRY RESULTS
+------------------------------------------------------------------------------------------------------------------------
+Raw registry results
+==================  =============================================================================  ============
+Name                Data                                                                           Field Type
+==================  =============================================================================  ============
+HKEY_LOCAL_MACHINE  Software\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService  Empty
+DisplayName         Mozilla Maintenance Service                                                    1
+UninstallString     "C:\Program Files (x86)\Mozilla Maintenance Service\uninstall.exe"             1
+DisplayIcon         C:\Program Files (x86)\Mozilla Maintenance Service\Uninstall.exe,0             1
+DisplayVersion      71.0                                                                           1
+Publisher           Mozilla                                                                        1
+Comments            Mozilla Maintenance Service                                                    1
+NoModify            1                                                                              4
+EstimatedSize       329                                                                            4
+==================  =============================================================================  ============
+
+Filtered registry results
+========  ===========================  ============
+Name      Data                           Field Type
+========  ===========================  ============
+Comments  Mozilla Maintenance Service             1
+========  ===========================  ============
+
+------------------------------------------------------------------------------------------------------------------------

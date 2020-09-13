@@ -1,0 +1,44 @@
+---BEGIN_FILE_SCAN---
+# File scanner syntax: path;;extension or size (in KB)
+# Allows for a maximum of 1 item per scan
+# C:\\Users\\Jasper\\Downloads;;Firefox.exe  -- Example entry
+
+C:\\Users\\Jasper\\Downloads;;.exe
+# C:\\Users\\Jasper\\Downloads;;10000
+
+---END---
+
+---BEGIN_EVENTLOG_SCAN---
+# Event log scanner syntax:
+# eventType ;; eventID ;; sid ;; sourceName ;; stringInserts ;; eventCategory ;; data ;; computerName ;; logType
+# There are five logTypes: audit_failure, audit_succes, information_type, warning_type, error_type
+# To search all log types, choose ALL as your log type
+# audit_succes;;13;;14;;233434;;lala;;evil.exe;;34;;lala;;mijnComputer  -- Example entry
+
+audit_succes;;13;;14;;233434;;lala;;evil.exe;;34;;lala;;mijnComputer
+
+---END---
+
+---BEGIN_REGISTRY_SCAN---
+# Registry scanner syntax: hkey;;path;;filter_choice;;filter_type;;filter_name
+# HKEY_LOCAL_MACHINE;;Software\Microsoft\Windows\CurrentVersion\Run;;Y;;1;;DWAgent  -- Example entry
+
+#HKEY_LOCAL_MACHINE;;Software\Microsoft\Windows\CurrentVersion\Run;;Y;;1;;DWAgent
+#HKEY_LOCAL_MACHINE;;Software\Microsoft\Windows\CurrentVersion\RunOnce;;Y;;1;;OneDrive
+#HKEY_CURRENT_USER;;Software\Microsoft\Windows\CurrentVersion\Run;;Y;;2;;C:
+#HKEY_CURRENT_USER;;Software\Microsoft\Windows\CurrentVersion\RunOnce;;N;; ;;
+HKEY_LOCAL_MACHINE;;Software\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService;;Y;;1;;Comments
+
+---END---
+
+---BEGIN_PROCESS_SCAN---
+# Process scanner syntax: processnaam;;SourcePath
+# Skype;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3\bin\pycharm64.exe  -- Example entry
+Skype;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3\bin\pycharm64.exe
+
+---END---
+
+---BEGIN_CONFIG---
+C:\Users
+D:
+---END---

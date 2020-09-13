@@ -1,0 +1,30 @@
+
+---BEGIN_REGISTRY_SCAN---
+# Registry scanner syntax
+# hkey;;path
+HKEY_LOCAL_MACHINE,HKEY_LOCAL_MACHINE;;Software\Microsoft\Windows\CurrentVersion\Run,Software\Microsoft\Windows\CurrentVersion\RunOnce
+---END---
+
+---BEGIN_PROCESS_SCAN---
+# process name;;SourcePath
+C:\Users\Jasper\Downloads;;.exe
+---END---
+
+---BEGIN_FILE_SCAN---
+# File Scanner syntax:
+# path;;extension or size
+# Allows for a maximum 1 item per search run
+Skype;;C:\Users\Jasper\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+---END---
+
+---BEGIN_EVENTLOG_SCAN---
+# Event log scanner syntax:
+# eventType ;; eventID ;; sid ;; sourceName ;; stringInserts ;; eventCategory ;; data ;; computerName ;; logType
+# There are five logTypes: audit_failure, audit_success, information_type, warning_type, error_type
+# To search all log types, choose ALL as your log type
+13;;14;;233434;;lala;;evil.exe;;34;;lala;;DESKTOP-X;;ALL
+---END---
+
+---BEGIN_CONFIG---
+C:\Users;;D:\Export
+---END---

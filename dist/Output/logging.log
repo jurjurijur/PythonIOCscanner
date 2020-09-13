@@ -1,0 +1,104 @@
+2020-01-30 20:31:08,429, INFO, main, 
+---MAIN OF PROGRAM---
+2020-01-30 20:31:08,429, INFO, main, Checking if output directory exists
+2020-01-30 20:31:08,429, INFO, main, Retrieving input from config file
+2020-01-30 20:31:08,429, INFO, get_input, 
+---GET INPUT---
+2020-01-30 20:31:08,429, INFO, get_input, Started getting config from the config file
+2020-01-30 20:31:08,429, INFO, get_input, Creating input objects
+2020-01-30 20:31:08,429, INFO, get_input, Getting lists from config file
+2020-01-30 20:31:08,429, INFO, get_input, Binding registry lists to variables: hkey_list
+2020-01-30 20:31:08,429, INFO, get_input, Binding file list to variable: file_list
+2020-01-30 20:31:08,429, INFO, get_input, Binding event list to variable: event_list
+2020-01-30 20:31:08,429, INFO, get_input, Binding event list to variable: process_list
+2020-01-30 20:31:08,429, INFO, get_input, Binding event list to variable: config_list
+2020-01-30 20:31:08,429, INFO, get_input, Returning made variables: hkey_list, path_list, file_list, event_list, process_list, config_list
+2020-01-30 20:31:08,429, INFO, main, Starting scanner calling function with config file input
+2020-01-30 20:31:08,429, INFO, order_of_calling, 
+---SCANNER CONTROL---
+2020-01-30 20:31:08,429, INFO, order_of_calling, Started calling scanners with given input
+2020-01-30 20:31:08,429, INFO, order_of_calling, Starting registry scan
+2020-01-30 20:31:08,429, INFO, load_input_list, 
+---REGISTRY SCAN---
+2020-01-30 20:31:08,429, INFO, load_input_list, Started loading the input list
+2020-01-30 20:31:08,429, INFO, load_input_list, Finished loading the input list
+2020-01-30 20:31:08,429, INFO, load_input_list, Starting next function
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Started HKEY input processing
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Processed input, HKEY type is: HKEY_LOCAL_MACHINE, setting processed to True
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Started HKEY input processing
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Input processed, starting next function
+2020-01-30 20:31:08,429, INFO, check_output_location, File did not exist, creating file
+2020-01-30 20:31:08,429, INFO, check_output_location, Correct file exists, starting next function
+2020-01-30 20:31:08,429, INFO, read_registry, Starting reading registry with current key and path
+2020-01-30 20:31:08,429, INFO, read_registry, Key is not empty, reading results
+2020-01-30 20:31:08,429, INFO, read_registry, Key is not empty, reading results
+2020-01-30 20:31:08,429, INFO, read_registry, Key is not empty, reading results
+2020-01-30 20:31:08,429, INFO, read_registry, Key is not empty, reading results
+2020-01-30 20:31:08,429, INFO, read_registry, Key is not empty, reading results
+2020-01-30 20:31:08,429, INFO, read_registry, List is not empty, restarting program
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Started HKEY input processing
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Processed input, HKEY type is: HKEY_LOCAL_MACHINE, setting processed to True
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Started HKEY input processing
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Input processed, starting next function
+2020-01-30 20:31:08,429, INFO, check_output_location, File existed, opening found file
+2020-01-30 20:31:08,429, INFO, check_output_location, Correct file exists, starting next function
+2020-01-30 20:31:08,429, INFO, read_registry, Starting reading registry with current key and path
+2020-01-30 20:31:08,429, INFO, read_registry, Current key is empty, filling in blanks
+2020-01-30 20:31:08,429, INFO, read_registry, List is not empty, restarting program
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Started HKEY input processing
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Processed input, HKEY type is: HKEY_CURRENT_USER, setting processed to True
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Started HKEY input processing
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Input processed, starting next function
+2020-01-30 20:31:08,429, INFO, check_output_location, File existed, opening found file
+2020-01-30 20:31:08,429, INFO, check_output_location, Correct file exists, starting next function
+2020-01-30 20:31:08,429, INFO, read_registry, Starting reading registry with current key and path
+2020-01-30 20:31:08,429, INFO, read_registry, Key is not empty, reading results
+2020-01-30 20:31:08,429, INFO, read_registry, Key is not empty, reading results
+2020-01-30 20:31:08,429, INFO, read_registry, List is not empty, restarting program
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Started HKEY input processing
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Processed input, HKEY type is: HKEY_CURRENT_USER, setting processed to True
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Started HKEY input processing
+2020-01-30 20:31:08,429, INFO, hkey_switcher, Input processed, starting next function
+2020-01-30 20:31:08,429, INFO, check_output_location, File existed, opening found file
+2020-01-30 20:31:08,429, INFO, check_output_location, Correct file exists, starting next function
+2020-01-30 20:31:08,429, INFO, read_registry, Starting reading registry with current key and path
+2020-01-30 20:31:08,429, INFO, read_registry, Current key is empty, filling in blanks
+2020-01-30 20:31:08,429, INFO, read_registry, List is empty, starting next function
+2020-01-30 20:31:08,445, INFO, order_of_calling, Starting process scanner
+2020-01-30 20:31:08,445, INFO, main, 
+---PROCESS SCANNER---
+2020-01-30 20:31:08,445, INFO, main, Start process main
+2020-01-30 20:31:08,445, INFO, find_procs_by_path, Start function to find processes by Input Path
+2020-01-30 20:31:08,445, INFO, find_procs_by_path, Started loop to compare exe with exe on device and add to list
+2020-01-30 20:31:09,149, INFO, find_procs_by_path, End function Find_procs_by_Path
+2020-01-30 20:31:09,163, INFO, read_process_list, Started reading the ProcessList to Check If process is running
+2020-01-30 20:31:09,163, INFO, check_if_process_running, Start function to CheckIfProcessRunning
+2020-01-30 20:31:09,163, INFO, check_if_process_running, Begin Loop to iterate over all the running processes
+2020-01-30 20:31:09,366, INFO, show_processes, Started reading the ProcessList to find ProcessIdByName
+2020-01-30 20:31:09,366, INFO, find_process_id_by_name, Start Function to get a list of processes by the given processName
+2020-01-30 20:31:09,366, INFO, find_process_id_by_name, Begin loop to iterate over all the running processes
+2020-01-30 20:31:09,632, INFO, find_process_id_by_name, End function to iterate over all the running processes
+2020-01-30 20:31:09,632, INFO, find_process_id_by_name, Start Function to get a list of processes by the given processName
+2020-01-30 20:31:09,632, INFO, find_process_id_by_name, Begin loop to iterate over all the running processes
+2020-01-30 20:31:09,898, INFO, find_process_id_by_name, End function to iterate over all the running processes
+2020-01-30 20:31:09,898, INFO, order_of_calling, Starting event log scanner
+2020-01-30 20:31:09,929, INFO, readEventLog, Scanning through 6399 events on localhost in EVENTLOG_AUDIT_SUCCESS
+2020-01-30 20:31:11,366, INFO, readEventLog, Scanned through 6399 events on localhost in EVENTLOG_AUDIT_SUCCESS
+2020-01-30 20:31:11,382, INFO, order_of_calling, Starting file scanner
+2020-01-30 20:31:11,382, INFO, input_check, 
+---FILE SCANNER---
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: dwagent.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: Git-2.24.1.2-64-bit.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: iobituninstaller.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: JavaSetup8u241.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: nsis-3.05-setup.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: pycharm-community-2019.3.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: python-3.7.0-amd64(1).exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: python-3.7.0-amd64.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: python-3.8.0-amd64.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: python-3.8.0.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: python-3.8.1rc1-amd64.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: VSCodeUserSetup-x64-1.41.0.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: VSCodeUserSetup-x64-1.41.1.exe
+2020-01-30 20:31:11,382, INFO, input_check, Path: C:\\Users\\Jasper\\Downloads File Name: vs_community__1809968542.1576591472.exe
+2020-01-30 20:31:13,304, INFO, order_of_calling, Exiting program

@@ -1,0 +1,17 @@
+------------------------------------------------------------------------------------------------------------------------
+PROCESS SCAN RESULTS
+------------------------------------------------------------------------------------------------------------------------
+*** found process by path ***
+[psutil.Process(pid=7016, name='pycharm64.exe', started='08:56:19')]
+
+*** Check if a process is running or not ***
+Yes, a Skype process was running
+
+*** Find PIDs of a running process by Name ***
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 6620, 'name': 'SkypeBridge.exe'}
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7092, 'name': 'SkypeBackgroundHost.exe'}
+{'username': 'DESKTOP-V0TA2HL\\Jasper', 'pid': 7164, 'name': 'SkypeApp.exe'}
+
+*** Find PIDs of a running process by Name ***
+
+------------------------------------------------------------------------------------------------------------------------

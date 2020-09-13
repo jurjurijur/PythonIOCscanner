@@ -1,0 +1,35 @@
+------------------------------------------------------------------------------------------------------------------------
+REGISTRY RESULTS
+------------------------------------------------------------------------------------------------------------------------
+Raw registry results
+==========================  ===========================================================================  ============
+Name                        Data                                                                         Field Type
+==========================  ===========================================================================  ============
+HKEY_LOCAL_MACHINE          Software\Microsoft\Windows\CurrentVersion\Run                                Empty
+SecurityHealth              %windir%\system32\SecurityHealthSystray.exe                                  2
+VMware VM3DService Process  "C:\Windows\system32\vm3dservice.exe" -u                                     1
+VMware User Process         "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr                 1
+Internet Explorer           "C:\Program Files (x86)\Internet Explorer\iexplore.exe"                      1
+DWAgentMon                  "C:\Program Files\DWAgent\native\dwaglnc.exe" systray                        1
+HKEY_LOCAL_MACHINE          Software\Microsoft\Windows\CurrentVersion\RunOnce                            Empty
+Empty                       Empty                                                                        Empty
+HKEY_CURRENT_USER           Software\Microsoft\Windows\CurrentVersion\Run                                Empty
+OneDrive                    "C:\Users\Jasper\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background  1
+Firefox                     "C:\Program Files\Mozilla Firefox\firefox.exe"                               1
+HKEY_CURRENT_USER           Software\Microsoft\Windows\CurrentVersion\RunOnce                            Empty
+Empty                       Empty                                                                        Empty
+==========================  ===========================================================================  ============
+
+Filtered registry results
+==========================  ===========================================================================  ============
+Name                        Data                                                                           Field Type
+==========================  ===========================================================================  ============
+OneDrive                    "C:\Users\Jasper\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background             1
+VMware VM3DService Process  "C:\Windows\system32\vm3dservice.exe" -u                                                1
+VMware User Process         "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr                            1
+Internet Explorer           "C:\Program Files (x86)\Internet Explorer\iexplore.exe"                                 1
+DWAgentMon                  "C:\Program Files\DWAgent\native\dwaglnc.exe" systray                                   1
+Firefox                     "C:\Program Files\Mozilla Firefox\firefox.exe"                                          1
+==========================  ===========================================================================  ============
+
+------------------------------------------------------------------------------------------------------------------------
